@@ -13,3 +13,26 @@
   font-size: 1.5em;
 }
 
+.nav-bar {
+  background-color: grey;
+  height: 30px;
+}
+
+.nav-link {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 15px;
+  margin-left: 15px;
+  line-height: 30px;
+}
+
+.nav-link-text {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-links-block {
+  text-align: right;
+  margin-right: 20px;
+}

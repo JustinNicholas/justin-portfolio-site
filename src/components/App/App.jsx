@@ -15,13 +15,13 @@ function App() {
         <Router>
           <Header />
           <div className='nav-bar'>
-              <ul>
-                  <li><Link to='/smartbet'>SMARTBET</Link></li>
-                  <li><Link to='/gallery'>PHOTO GALLERY</Link></li>
-                  <li><Link to='/survey'>SURVEY LOOP</Link></li>
-                  <li><Link to='/movies'>MOVIES LIST</Link></li>
-                  <li><Link to='/about'>ABOUT</Link></li>
-                  <li><Link to='/'>HOME</Link></li>
+              <ul className='nav-links-block'>
+                  <li className='nav-link'><Link className='nav-link-text' to='/smartbet'>SMARTBET</Link></li>
+                  <li className='nav-link'><Link className='nav-link-text' to='/gallery'>PHOTO GALLERY</Link></li>
+                  <li className='nav-link'><Link className='nav-link-text' to='/survey'>SURVEY LOOP</Link></li>
+                  <li className='nav-link'><Link className='nav-link-text' to='/movies'>MOVIES LIST</Link></li>
+                  <li className='nav-link'><Link className='nav-link-text' to='/about'>ABOUT</Link></li>
+                  <li className='nav-link'><Link className='nav-link-text' to='/'>HOME</Link></li>
               </ul>
           </div>
           <Route path="/" exact>
