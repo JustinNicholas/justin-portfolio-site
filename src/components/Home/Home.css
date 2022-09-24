@@ -1,4 +1,9 @@
 .home-page-image {
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 600px;
+}
+
+.info-page-image {
+    height: auto;
+    width: 800px;
 }

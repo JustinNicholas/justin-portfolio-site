@@ -4,7 +4,11 @@ function Smartbet() {
 
     return(
         <div>
-            <h1>Smartbet</h1>
+            <div>
+                <h1>SMARTBET</h1>
+                <img className="info-page-image" src={process.env.PUBLIC_URL + '/images/smartbet.png'} />
+                {/* https://evening-peak-50040.herokuapp.com/ */}
+            </div>
         </div>
     )
 }
