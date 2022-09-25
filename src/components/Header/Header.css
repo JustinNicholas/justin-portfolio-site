@@ -3,3 +3,42 @@
     left: 20px;
     top: 20px;
 }
+
+.hero-image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 400px;
+}
+
+/* header {
+    height: 400px;
+    padding: 0;
+    margin: 0;
+} */
+
+.hero-nav-bar {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    height: 30px;
+  }
+  
+.hero-nav-link {
+list-style-type: none;
+display: inline-block;
+margin-left: 15px;
+margin-left: 15px;
+line-height: 30px;
+}
+
+.hero-nav-link-text {
+text-decoration: none;
+color: white;
+font-size: 14px;
+}
+
+.hero-nav-links-block {
+text-align: right;
+margin-right: 20px;
+}

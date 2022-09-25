@@ -3,10 +3,13 @@
 }
 
 .App-header {
+  position: absolute;
+  width: 100%;
+  margin-top: 0px;
   background-color: #222;
-  padding: 1em;
+  height: 400px;
   color: white;
-  margin-bottom: 1em;
+
 }
 
 .App-title {
@@ -35,4 +38,9 @@
 .nav-links-block {
   text-align: right;
   margin-right: 20px;
+}
+
+.body-container {
+  position: relative;
+  top: 400px;
 }

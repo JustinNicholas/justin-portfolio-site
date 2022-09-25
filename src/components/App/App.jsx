@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Router>
           <Header />
-          <div className='nav-bar'>
+          {/* <div className='nav-bar'>
               <ul className='nav-links-block'>
                   <li className='nav-link'><Link className='nav-link-text' to='/smartbet'>SMARTBET</Link></li>
                   <li className='nav-link'><Link className='nav-link-text' to='/gallery'>PHOTO GALLERY</Link></li>
@@ -23,26 +23,29 @@ function App() {
                   <li className='nav-link'><Link className='nav-link-text' to='/about'>ABOUT</Link></li>
                   <li className='nav-link'><Link className='nav-link-text' to='/'>HOME</Link></li>
               </ul>
+          </div> */}
+          <div className='body-container'>
+            <Route path="/" exact>
+              <Home />
+            </Route>
+            <Route path="/gallery">
+              <Gallery />
+            </Route>
+            <Route path="/survey">
+              <Survey />
+            </Route>
+            <Route path="/movies">
+              <Movies />
+            </Route>
+            <Route path="/smartbet">
+              <Smartbet />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
           </div>
-          <Route path="/" exact>
-            <Home />
-          </Route>
-          <Route path="/gallery">
-            <Gallery />
-          </Route>
-          <Route path="/survey">
-            <Survey />
-          </Route>
-          <Route path="/movies">
-            <Movies />
-          </Route>
-          <Route path="/smartbet">
-            <Smartbet />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
         </Router>
+        
       </div>
     );
 }
