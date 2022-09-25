@@ -1,4 +1,4 @@
-import './Gallery.css';
+
 
 function Gallery() {
 
@@ -8,7 +8,7 @@ function Gallery() {
                 <img className="info-page-image" src={process.env.PUBLIC_URL + '/images/ReactGallery.png'} />
                 {/* https://hidden-temple-08817.herokuapp.com/ */}
                 <br />
-                <a href="https://hidden-temple-08817.herokuapp.com/ ">View Site</a>
+                <a href="https://hidden-temple-08817.herokuapp.com/" target="_blank">View Site</a>
             </div>
     )
 }

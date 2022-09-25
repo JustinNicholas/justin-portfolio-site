@@ -6,14 +6,37 @@
   position: absolute;
   width: 100%;
   margin-top: 0px;
-  background-color: #222;
+  /* background-color: #222; */
   height: 400px;
   color: white;
-
+  background-image: url('../../../public/images/Hero.svg');
+  
 }
 
 .App-title {
-  font-size: 1.5em;
+  position: absolute;
+  bottom: -95px;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1019px) {
+  .App-title {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .App-header {
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    /* background-color: #222; */
+    height: 400px;
+    color: white;
+    background-image: url('../../../public/images/Hero.svg');
+    background-position: 20%;
+  }
 }
 
 .nav-bar {

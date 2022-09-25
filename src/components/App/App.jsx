@@ -8,22 +8,13 @@ import Survey from '../Survey/Survey.jsx';
 import Movies from '../Movies/Movies.jsx';
 import Smartbet from '../Smartbet/Smartbet.jsx';
 import About from '../About/About.jsx';
+import Footer from '../Footer/Footer.jsx';
 
 function App() {
     return (
       <div className="App">
         <Router>
           <Header />
-          {/* <div className='nav-bar'>
-              <ul className='nav-links-block'>
-                  <li className='nav-link'><Link className='nav-link-text' to='/smartbet'>SMARTBET</Link></li>
-                  <li className='nav-link'><Link className='nav-link-text' to='/gallery'>PHOTO GALLERY</Link></li>
-                  <li className='nav-link'><Link className='nav-link-text' to='/survey'>SURVEY LOOP</Link></li>
-                  <li className='nav-link'><Link className='nav-link-text' to='/movies'>MOVIES LIST</Link></li>
-                  <li className='nav-link'><Link className='nav-link-text' to='/about'>ABOUT</Link></li>
-                  <li className='nav-link'><Link className='nav-link-text' to='/'>HOME</Link></li>
-              </ul>
-          </div> */}
           <div className='body-container'>
             <Route path="/" exact>
               <Home />
@@ -43,6 +34,7 @@ function App() {
             <Route path="/about">
               <About />
             </Route>
+            <Footer />
           </div>
         </Router>
         

@@ -1,0 +1,26 @@
+.footer-bar {
+    margin-top: 20px;
+    background-color: #222;
+    width: 100%;
+    height: 75px;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.footer-container {
+    position: relative;
+    width: 100%;
+    height: 75px;
+}
+
+.copy-year {
+    color: white;
+    width: 70px;
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+}

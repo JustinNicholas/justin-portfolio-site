@@ -1,0 +1,22 @@
+import { useHistory } from "react-router-dom";
+import './Footer.css';
+
+function Footer() {
+
+    const history = useHistory();
+
+    const goHome = () => {
+        history.push('/')
+    }
+
+    return(
+        <footer className="footer-bar">
+            <div className="footer-container">
+                <img onClick={() => goHome()} className='footer-logo' src={process.env.PUBLIC_URL + '/images/JustinCustomLogo.svg'} alt="" />
+                <p className="no-margin-text copy-year">&copy; 2022</p>
+            </div>
+        </footer>
+    )
+}
+
+export default Footer;
