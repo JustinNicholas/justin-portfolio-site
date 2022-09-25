@@ -24,6 +24,10 @@
   .App-title {
     display: none;
   }
+
+  .footer-logo {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -37,6 +41,15 @@
     background-image: url('../../../public/images/Hero.svg');
     background-position: 20%;
   }
+
+  .header-logo {
+    display: none;
+  }
+
+  .copy-year {
+    display: none;
+  }
+
 }
 
 .nav-bar {

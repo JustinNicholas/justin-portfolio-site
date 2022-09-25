@@ -24,3 +24,11 @@
     bottom: 30px;
     right: 60px;
 }
+
+.footer-links {
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 75px;
+}
