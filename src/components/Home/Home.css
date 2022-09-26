@@ -30,6 +30,7 @@
 }
 
 .home-image-card { 
+    cursor: pointer;
     position: relative;
     margin-top: 20px;
     width: 300px;
@@ -61,6 +62,7 @@
     z-index: 0;
     min-width: 300px;
     max-height: 300px;
+    min-height: 300px;
     width: 300px;
     object-fit: cover;
     object-position: top;

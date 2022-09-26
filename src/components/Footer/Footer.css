@@ -22,7 +22,7 @@
     width: 70px;
     position: absolute;
     bottom: 30px;
-    right: 60px;
+    right: 30px;
 }
 
 .footer-links {
@@ -31,4 +31,14 @@
     margin-left: 15px;
     margin-right: 15px;
     line-height: 75px;
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    color: #bfbfbf;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 75px;
+    text-decoration: none;
 }

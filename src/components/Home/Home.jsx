@@ -24,11 +24,11 @@ function Home() {
 
                 <div className='hidden-text-container'>
                     <div className='padded-text-container'>
-                        <p className='hidden-text'>SMARTBET</p>
+                        <h3 className='hidden-text'>SMARTBET</h3>
                         <p className='hidden-text'>This was my solo project! Finished in a two week sprint, this app allows users to bet on NFL games. Wins and losses are automatically calculated at Midnight and charted out for users to easily see their net earnings.</p>
                     </div>
                     <div className='view-page-card-footer'>
-                        <p className='hidden-text'>VIEW</p>
+                        <h3 className='hidden-text'>VIEW</h3>
                     </div>
                 </div>
 
@@ -38,11 +38,11 @@ function Home() {
             <div className='home-image-card' onClick={() => goToDetails('gallery')} onMouseEnter={() => mouseEnter(2)} onMouseLeave={() => mouseLeave()} >
                 <div className='hidden-text-container'>
                     <div className='padded-text-container'>
-                        <p className='hidden-text'>GALLERY</p>
-                        <p className='hidden-text'>My photo gallery app was my first react app. It allows users to add images and descriptions. It also allows users to like and delete images</p>
+                        <h3 className='hidden-text'>PHOTO GALLERY</h3>
+                        <p className='hidden-text'>My photo gallery app was my first react app. It allows users to add images and descriptions. It also allows users to like and delete images.</p>
                     </div>
                     <div className='view-page-card-footer'>
-                        <p className='hidden-text'>VIEW</p>
+                        <h3 className='hidden-text'>VIEW</h3>
                     </div>
                 </div>
 
@@ -52,11 +52,11 @@ function Home() {
             <div className='home-image-card' onClick={() => goToDetails('movies')} onMouseEnter={() => mouseEnter(3)} onMouseLeave={() => mouseLeave()} >
                 <div className='hidden-text-container'>
                     <div className='padded-text-container'>
-                        <p className='hidden-text'>MOVIES</p>
+                        <h3 className='hidden-text'>MOVIE LIST</h3>
                         <p className='hidden-text'>My Movies list was my first projects using redux sagas! This app allows users to add movies with a description and multiple genres. Users can also filter the movies by genres. I'm also very proud of the neon sign header I made on this!</p>
                     </div>
                     <div className='view-page-card-footer'>
-                        <p className='hidden-text'>VIEW</p>
+                        <h3 className='hidden-text'>VIEW</h3>
                     </div>
                 </div>
 
@@ -66,11 +66,11 @@ function Home() {
             <div className='home-image-card' onClick={() => goToDetails('survey')} onMouseEnter={() => mouseEnter(4)} onMouseLeave={() => mouseLeave()} >
                 <div className='hidden-text-container'>
                     <div className='padded-text-container'>
-                        <p className='hidden-text'>SURVEY</p>
+                        <h3 className='hidden-text'>SURVEY LOOP</h3>
                         <p className='hidden-text'>This app is a survey that takes users through a loop for each question. It also features an admin page where all responses can be viewed. This app has a convient progress bar and a confetti burst on submission!</p>
                     </div>
                     <div className='view-page-card-footer'>
-                        <p className='hidden-text'>VIEW</p>
+                        <h3 className='hidden-text'>VIEW</h3>
                     </div>
                 </div>
 

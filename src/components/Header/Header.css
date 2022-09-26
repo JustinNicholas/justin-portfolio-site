@@ -41,6 +41,11 @@ color: white;
 font-size: 14px;
 }
 
+.hero-nav-link:hover {
+    cursor: pointer;
+    color: #bfbfbf;
+    }
+
 .hero-nav-links-block {
 text-align: right;
 margin-right: 20px;
