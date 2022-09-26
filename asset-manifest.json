@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/JustinNicholas/justin-portfolio-site/static/css/main.ce4da7e9.css",
+    "main.js": "/JustinNicholas/justin-portfolio-site/static/js/main.05ee17d6.js",
+    "static/media/Hero.svg": "/JustinNicholas/justin-portfolio-site/static/media/Hero.152b83d27c1e38db0f15.svg",
+    "index.html": "/JustinNicholas/justin-portfolio-site/index.html",
+    "main.ce4da7e9.css.map": "/JustinNicholas/justin-portfolio-site/static/css/main.ce4da7e9.css.map",
+    "main.05ee17d6.js.map": "/JustinNicholas/justin-portfolio-site/static/js/main.05ee17d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce4da7e9.css",
+    "static/js/main.05ee17d6.js"
+  ]
+}
