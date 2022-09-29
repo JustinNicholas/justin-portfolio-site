@@ -19,7 +19,7 @@
     "nodemon": "^1.18.4"
   },
   "scripts": {
-    "build": "REACT_APP_RENDER_GIT_COMMTL=$RENDER_GIT_COMMIT yarn build",
+    "build": "yarn build",
     "client": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
